@@ -10,8 +10,8 @@ body {
 
 .media-player {
   background-color: #FCEEF3;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(253, 248, 250, 0.658);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(253, 248, 250, 0.746);
   overflow: hidden;
   width: 240px;
   padding: 10px;
