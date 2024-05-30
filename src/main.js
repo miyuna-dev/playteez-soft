@@ -111,8 +111,8 @@ function updateLoopModeDisplay() {
         loopIndicator.classList.add('fas', 'fa-arrows-rotate');
         loopIndicator.innerHTML = ''; // Clear any innerHTML
     } else if (loopMode === 'one') {
-        loopIndicator.classList.add('fas', 'fa-arrows-rotate');
-        loopIndicator.innerHTML = '<span class="loop-one-text">¹</span>';
+        loopIndicator.classList.add('fas', 'fa-1');
+        loopIndicator.innerHTML = '';
     } else {
         loopIndicator.style.display = 'none';
     }

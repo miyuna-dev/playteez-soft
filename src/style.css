@@ -145,15 +145,15 @@ body {
   font-size: 8px;
   background-color: #FFFFFF;
   border-radius: 50%;
-  padding: 2px 3px;
+  padding: 2px 4px;
+  text-align: center;
+  align-items: center;
   color: #FFCCDC;
   font-weight: bold;
   display: none;
 }
 
-.loop-one-text {
-  position: absolute;
-  right: 0.8px;
-  bottom: -3px;
-  font-size: 10px;
+.loop-one>#loopIndicator {
+  padding: 2px 6px;
+  /* Adjusted padding for loop mode 'one' */
 }
