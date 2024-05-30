@@ -9,7 +9,7 @@ body {
 }
 
 .media-player {
-  background-color: #FCEEF3;
+  background-color: #fff2f7;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(253, 248, 250, 0.746);
   overflow: hidden;
@@ -27,7 +27,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FCEEF3;
   padding: 5px;
 }
 
