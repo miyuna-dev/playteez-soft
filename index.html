@@ -4,18 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Softeez Player</title>
-  <link rel="stylesheet" href="./src/style.css">
+  <title>Media Player</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
   <div class="media-player">
     <div id="player"></div>
-    <!-- Your HTML content -->
+    <div class="progress-bar-container">
+      <div class="timestamps">
+        <span id="current-time">0:00</span>
+        <div class="progress-bar">
+          <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+        <span id="total-time">0:00</span>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="control-btn" id="shuffleBtn">
+        <i id="shuffleIcon" class="fas fa-random"></i>
+        <i id="shuffleIndicator" class="fas fa-retweet indicator"></i>
+      </button>
+      <div class="main-controls">
+        <button class="control-btn" id="prevBtn">
+          <i class="fas fa-step-backward"></i>
+        </button>
+        <button class="control-btn" id="playPauseBtn">
+          <i id="playPauseIcon" class="fas fa-pause"></i>
+        </button>
+        <button class="control-btn" id="nextBtn">
+          <i class="fas fa-step-forward"></i>
+        </button>
+      </div>
+      <button class="control-btn" id="loopBtn">
+        <i id="loopIcon" class="fas fa-redo"></i>
+        <span id="loopIndicator"></span>
+      </button>
+    </div>
   </div>
-  <script src="./src/main.js"></script>
-  <!-- Load YouTube Iframe API -->
-  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="/src/main.js"></script>
 </body>
 
 </html>
